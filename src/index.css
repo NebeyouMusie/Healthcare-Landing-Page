@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -52,11 +52,15 @@
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
   * {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground font-inter antialiased;
+    @apply bg-background text-foreground font-poppins antialiased;
   }
 }
 
@@ -69,5 +73,5 @@
 }
 
 .service-card {
-  @apply rounded-xl p-6 transition-all duration-300 hover:scale-105;
+  @apply rounded-xl p-6 transition-all duration-300 hover:scale-105 animate-fade-in-up;
 }
