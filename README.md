@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Healthcare Landing Page
 
 ## Project info
 
