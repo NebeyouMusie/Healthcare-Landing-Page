@@ -6,8 +6,8 @@ import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 const navItems = [
   { label: "About us", href: "#about" },
   { label: "Services", href: "#services" },
-  { label: "Use Cases", href: "#cases" },
-  { label: "Pricing", href: "#pricing" },
+  { label: "Patient Stories", href: "#cases" },
+  { label: "Insurance Plans", href: "#pricing" },
   { label: "Contact us", href: "#contact" },
 ];
 
@@ -35,7 +35,7 @@ export function MobileMenu() {
             </a>
           ))}
           <Button className="mt-4 bg-neon text-black hover:bg-neon/90">
-            Request a quote
+            Book Appointment
           </Button>
         </nav>
       </SheetContent>

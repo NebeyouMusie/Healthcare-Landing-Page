@@ -1,6 +1,7 @@
 import { ThemeToggle } from "./ThemeToggle";
 import { MobileMenu } from "./MobileMenu";
 import { Button } from "./ui/button";
+import { Heart } from "lucide-react";
 
 export function Navbar() {
   return (
@@ -8,22 +9,23 @@ export function Navbar() {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-6">
           <a href="/" className="flex items-center space-x-2">
-            <span className="font-bold text-xl">WizardZ</span>
+            <Heart className="h-6 w-6 text-red-500" />
+            <span className="font-bold text-xl">HealthCare Plus</span>
           </a>
           <nav className="hidden md:flex gap-6">
-            <a href="#about" className="text-sm font-medium">
+            <a href="#about" className="text-sm font-medium hover:text-primary">
               About us
             </a>
-            <a href="#services" className="text-sm font-medium">
+            <a href="#services" className="text-sm font-medium hover:text-primary">
               Services
             </a>
-            <a href="#cases" className="text-sm font-medium">
-              Use Cases
+            <a href="#cases" className="text-sm font-medium hover:text-primary">
+              Patient Stories
             </a>
-            <a href="#pricing" className="text-sm font-medium">
-              Pricing
+            <a href="#pricing" className="text-sm font-medium hover:text-primary">
+              Insurance Plans
             </a>
-            <a href="#contact" className="text-sm font-medium">
+            <a href="#contact" className="text-sm font-medium hover:text-primary">
               Contact us
             </a>
           </nav>
@@ -31,7 +33,7 @@ export function Navbar() {
         <div className="flex items-center gap-4">
           <ThemeToggle />
           <Button className="hidden md:inline-flex bg-neon text-black hover:bg-neon/90">
-            Request a quote
+            Book Appointment
           </Button>
           <MobileMenu />
         </div>

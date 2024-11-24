@@ -7,14 +7,14 @@ export function About() {
             About us
           </span>
           <h2 className="text-3xl font-bold mb-6">
-            Empowering Businesses Through Digital Innovation
+            Committed to Excellence in Healthcare
           </h2>
           <p className="text-muted-foreground mb-8">
-            We are a team of passionate digital marketers and tech enthusiasts dedicated to helping businesses thrive in the digital age. With years of experience and a proven track record, we deliver results that matter.
+            With over 20 years of experience, our medical center has been providing exceptional healthcare services to our community. Our team of skilled professionals is dedicated to delivering personalized care with compassion and expertise.
           </p>
           <img
-            src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
-            alt="Our Team"
+            src="https://images.pexels.com/photos/4167541/pexels-photo-4167541.jpeg"
+            alt="Our Medical Team"
             className="rounded-xl w-full object-cover h-[400px]"
           />
         </div>

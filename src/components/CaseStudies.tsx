@@ -1,18 +1,18 @@
 const cases = [
   {
-    title: "Local Restaurant",
+    title: "Recovery Journey",
     description:
-      "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in bookings and a 35% increase in sales.",
+      "After a successful cardiac procedure, John experienced a remarkable recovery and returned to his active lifestyle within months.",
   },
   {
-    title: "B2B Software",
+    title: "Preventive Care Success",
     description:
-      "For a B2B software company, we developed an SEO strategy that resulted in a first-page ranking for key industry terms.",
+      "Through our wellness program, Sarah identified and addressed potential health issues before they became serious concerns.",
   },
   {
-    title: "Retail Chain",
+    title: "Family Care",
     description:
-      "For a regional retail chain, we created a social media marketing campaign that generated a 200% increase in engagement.",
+      "The Thompson family found comprehensive care for all generations under one roof, from pediatrics to geriatric care.",
   },
 ];
 
@@ -22,11 +22,10 @@ export function CaseStudies() {
       <div className="container">
         <div className="mb-12">
           <span className="inline-block px-4 py-2 rounded-full bg-neon text-black font-medium mb-4">
-            Case study
+            Patient Stories
           </span>
           <h2 className="text-2xl font-bold mb-4">
-            Explore Real-Life Examples of Our Proven Digital Marketing Success
-            Through Our Case Studies
+            Real Stories from Our Patients About Their Healthcare Journey
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -38,7 +37,7 @@ export function CaseStudies() {
               <h3 className="text-lg font-semibold mb-4">{case_.title}</h3>
               <p className="text-sm mb-4">{case_.description}</p>
               <button className="text-sm font-medium flex items-center gap-2">
-                Learn more
+                Read full story
                 <span className="text-neon">→</span>
               </button>
             </div>

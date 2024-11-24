@@ -1,28 +1,28 @@
-import { Search, MousePointerClick, MessageSquare, Mail } from "lucide-react";
+import { Stethoscope, Heart, Brain, Activity } from "lucide-react";
 
 const services = [
   {
-    title: "Search engine optimization",
-    icon: Search,
-    description: "Improve your visibility and ranking on search engines",
+    title: "Primary Care",
+    icon: Stethoscope,
+    description: "Comprehensive health assessments and preventive care services",
     isDark: false,
   },
   {
-    title: "Pay per click advertising",
-    icon: MousePointerClick,
-    description: "Drive targeted traffic to your website",
+    title: "Cardiology",
+    icon: Heart,
+    description: "Expert cardiac care and heart health monitoring",
     isDark: true,
   },
   {
-    title: "Social media marketing",
-    icon: MessageSquare,
-    description: "Engage with your audience on social platforms",
+    title: "Neurology",
+    icon: Brain,
+    description: "Specialized care for neurological conditions",
     isDark: true,
   },
   {
-    title: "E-mail marketing",
-    icon: Mail,
-    description: "Build relationships with your customers",
+    title: "Wellness Programs",
+    icon: Activity,
+    description: "Personalized health and wellness planning",
     isDark: false,
   },
 ];
@@ -33,11 +33,10 @@ export function Services() {
       <div className="container">
         <div className="mb-12">
           <span className="inline-block px-4 py-2 rounded-full bg-neon text-black font-medium mb-4">
-            Services
+            Our Services
           </span>
           <p className="text-muted-foreground">
-            As our digital marketing agency, we offer a range of services to help
-            businesses grow and succeed online. These services include:
+            We offer a comprehensive range of medical services to ensure your complete health and well-being:
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

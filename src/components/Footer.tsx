@@ -4,9 +4,9 @@ export function Footer() {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-bold text-xl mb-4">WizardZ</h3>
+            <h3 className="font-bold text-xl mb-4">HealthCare Plus</h3>
             <p className="text-muted-foreground">
-              Transforming businesses through digital innovation and strategic marketing solutions.
+              Providing comprehensive healthcare services with compassion and excellence for over two decades.
             </p>
           </div>
           <div>
@@ -14,23 +14,23 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a href="#services" className="text-muted-foreground hover:text-foreground">
-                  Digital Marketing
+                  Primary Care
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-muted-foreground hover:text-foreground">
-                  SEO Optimization
+                  Specialist Care
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-muted-foreground hover:text-foreground">
-                  Content Strategy
+                  Emergency Services
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Company</h4>
+            <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
                 <a href="#about" className="text-muted-foreground hover:text-foreground">
@@ -39,7 +39,7 @@ export function Footer() {
               </li>
               <li>
                 <a href="#cases" className="text-muted-foreground hover:text-foreground">
-                  Case Studies
+                  Patient Stories
                 </a>
               </li>
               <li>
@@ -62,11 +62,16 @@ export function Footer() {
                   Terms of Service
                 </a>
               </li>
+              <li>
+                <a href="#" className="text-muted-foreground hover:text-foreground">
+                  Patient Rights
+                </a>
+              </li>
             </ul>
           </div>
         </div>
         <div className="mt-12 pt-8 border-t text-center text-muted-foreground">
-          <p>&copy; 2024 WizardZ. All rights reserved.</p>
+          <p>&copy; 2024 HealthCare Plus. All rights reserved.</p>
         </div>
       </div>
     </footer>
