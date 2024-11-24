@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 
@@ -8,7 +8,7 @@ const navItems = [
   { label: "Services", href: "#services" },
   { label: "Use Cases", href: "#cases" },
   { label: "Pricing", href: "#pricing" },
-  { label: "Blog", href: "#blog" },
+  { label: "Contact us", href: "#contact" },
 ];
 
 export function MobileMenu() {

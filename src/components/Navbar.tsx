@@ -23,8 +23,8 @@ export function Navbar() {
             <a href="#pricing" className="text-sm font-medium">
               Pricing
             </a>
-            <a href="#blog" className="text-sm font-medium">
-              Blog
+            <a href="#contact" className="text-sm font-medium">
+              Contact us
             </a>
           </nav>
         </div>
